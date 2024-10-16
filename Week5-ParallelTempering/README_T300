@@ -1,0 +1,5 @@
+To generate a .tpr file for T=300:
+
+* Copy adp_T300.mdp, adp_top, adp.gro files in this folder
+* Run this command:
+gmx_mpi grompp -f adp_T300.mdp -c adp.gro -r adp.gro -p adp.top -o adp.tpr
